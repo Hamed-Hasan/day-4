@@ -1323,6 +1323,7 @@ padding: 6px 10px;
 position: relative;
 border-radius: 50px;
 box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.06);
+position: relative;
 text-align: left;
 }
 .subscribe form input[type="email"] {
@@ -1365,6 +1366,12 @@ color: white;
 box-sizing: border-box;
 padding: 0;
 }
+
+.row.g-0.footer-h {
+  position: relative;
+  z-index: 100;
+}
+
 .footer_left {
 background: white;
 height: 100%;
